@@ -45,7 +45,7 @@ function App() {
 
         <div className="flex flex-row items-center justify-center gap-50">
           <button
-            className="bg-pink-500 hover:bg-pink-600 text-white text-lg font-semibold px-8 py-3 rounded-full shadow-md hover:shadow-lg transition-all duration-200 cursor-pointer border-none"
+            className="bg-pink-500 hover:bg-pink-600 hover:scale-300 text-white text-lg font-semibold px-8 py-3 rounded-full shadow-md hover:shadow-lg transition-all duration-200 cursor-pointer border-none"
             onClick={() => setAnswer('yes')}
           >
             YES
